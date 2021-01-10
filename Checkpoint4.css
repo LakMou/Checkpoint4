@@ -1,0 +1,226 @@
+body{
+    background: white;
+    margin: 0;
+}
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(223, 215, 215,30%);
+    height: 10%;
+  
+    padding: 5px;
+    text-align: center;
+
+}
+.headleft{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+
+}
+.lead__logo{
+    height: 60px;
+}
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: right;
+    margin-right: 25px;
+    
+}
+.nav a{
+    display: block;
+    padding: 10px;
+    text-decoration-line: none;
+    
+}
+
+.menu1{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.menu1 img{
+    margin-top: 1%;
+    
+}
+.menu1 h1{
+    align-items: center;
+    text-align: center;
+    padding: -10px;
+    color: #00b39b;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.table div{
+    margin-top: -70px;
+    padding: 7em;
+    border: 1;
+    
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+
+    
+
+}
+.pat{display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: hsl(120, 100%, 25%,50%);
+    color: white;
+    border-radius: 15px;
+    width: 180px;
+    align-items: center;
+    text-align: center;
+    
+}
+.doc{display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    background-color:hsl(240, 100%, 50%,50%) ;
+    color: white;border-radius: 15px;
+    width: 180px;
+    text-align: center;
+}
+.cli{display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-direction: column;
+    background-color: rgb(30, 14, 51,50%);
+    color: white;height: 300px;
+    border-radius: 15px;
+    width: 180px;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.menu3{height: 90vh;
+    background: rgb(118, 231, 231,30%);
+    display: flex;
+    flex-direction: row;
+
+}
+.left{
+    flex:1;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+.left img{
+width: 30vw;
+height: 40vh;
+} 
+.right{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+.gauche{
+    flex: 1;
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.droite{flex:1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -30px;
+
+}
+.top , .top1 , .down , .down1{
+    background-color:rgba(255, 247, 247, 0.979);
+    height: 35vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    padding-top: 10%;
+
+}
+.top p{
+    justify-content: center;
+    text-align: center;
+}
+.menu4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    font-size: 1.2em;
+
+}
+.menu5{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.A ,.B{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.title button{
+    height: 45px;
+}
+.menu6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 50vh;
+}
+button{
+    color: white;
+    background-color: rgb(83, 83, 240);
+    border-radius: 10px;
+    border-style: hidden;
+}
+button:hover{
+    background-color: cornflowerblue;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
